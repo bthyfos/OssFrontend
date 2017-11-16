@@ -8,15 +8,15 @@
     <meta name="description" content="OSS website">
     <!--//<meta http-equiv="refresh" content="30">-->
     <title>Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap-theme.min.css">
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
     <style>
         .bs-docs-sidebar.affix {
             position: fixed;
             top: 20px;
         }
-        .bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+        .bs-docs-sidebar.affix, .bs-docs-sidebar{
             width: 263px;
         }
 
@@ -25,7 +25,7 @@
                 top: 20px;
             }
 
-                .bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+                .bs-docs-sidebar.affix, .bs-docs-sidebar {
                     width: 213px;
                 }
 
@@ -44,6 +44,18 @@
         .col-md-3 {
             width: 25%;
         }
+        /*.menu-list .category-block.category-onlineonlydeals .category .menu-item.category-placeholder {*/
+            /*background-image: url(https://www.yumbi.com/management/ResourceProvider/Resource/19290);*/
+        /*}*/
+        #category-10730
+        {
+
+
+
+        }
+        #category-10730 .category-head{
+            font-style: italic;
+        }
         .menu-list .category-block .category .menu-item.category-placeholder {
             position: absolute;
             top: 0;
@@ -54,8 +66,9 @@
         }
         .menu-list .category {
             padding-top: 20px;
+
         }
-        .menu-list .category-block .category .menu-item.category-placeholder {
+        .menu-list{
             float: none;
             display: block;
             margin-left: 0;
@@ -91,11 +104,16 @@
 
         .menu-list .category {
             box-shadow: 10px 10px 67px -5px rgba(0, 0, 0, 0.7);
+            box-sizing: content-box;
+        }
+        img {
+            width: 100%;
+            height: auto;
         }
         * {
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
-            b
+        }
     </style>
 
 </head>
@@ -265,61 +283,27 @@
                     </ul> <a href="#top" class="back-to-top"> Back to top </a>
                     <a href="#" class="bs-docs-theme-toggle" role="button"> Preview theme </a> </nav> </div>
 
-            <div class="col-md-9">
+            <div class="col-md-7">
                 <div class="container menu-list">
                     <div style="" id="store-menu">
                         <div class="category-block category-onlineonlydeals" id="category-10730">
-
                             <div class="category-head">
                                 <h2>Online Only Deals</h2>
-                                <div class="category-description"></div>
+                                <div class="category-description">
+                                </div>
+                            </div>
 
-                            </div>
                             <div class="category">
-                                <div class="menu-item category-placeholder"></div>
-                                <ul>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>Spring Deal – Rustic Duo</span></h3>
-                                                <span class="description">
-									<span>Buy any 2 Rustic Range® pizzas for only R109.90 *T&amp;Cs apply</span>
-								</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>Online Only Deal: 2 Large pizzas, 2 Free Toppings</span></h3>
-                                                <span class="description">
-									<span>Buy any 2 large (30cm) pizzas and get any two extra toppings on Us. *T&amp;C's Apply</span>
-								</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>Subs Deal</span></h3>
-                                                <span class="description">
-									<span>Buy any two Regular Subs and a 1L Coke for R139.90 *T&amp;Cs apply</span>
-								</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>Corporate Catering Meal</span></h3>
-                                                <span class="description">
-									<span>Buy any 6 std (23cm) pizzas and get any 4 sides for R399.90</span>
-								</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="menu-item category-placeholder">
+                                </div>
+
+                                <div>
+
+                                </div>
+
+                                <div></div>
                             </div>
+
                         </div>
 
                         <div class="category-block category-meat" id="category-10702">
@@ -428,107 +412,16 @@
 
                         <div class="category-block category-chicken" id="category-10700">
 
-                            <div class="category-head">
+
                                 <h2>Chicken Pizzas</h2>
-                                <div class="category-description"></div>
+                                <div class="category-description">
+
+                                </div>
 
                             </div>
                             <div class="category" data-category="Amazing Pizzas - Chicken">
-
-
                                 <div class="menu-item category-placeholder"></div>
-                                <ul>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>CHICKEN &amp; MUSHROOM</span></h3>
-                                                <span class="description">
-									<span>Chicken, mushroom, tomato, onion, Debonairs sauce</span>
-								</span>
 
-                                            </div>
-
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>TIKKA CHICKEN</span></h3>
-                                                <span class="description">
-									<span>Chicken, mushroom, sweet bell pepper, onion, Tikka sauce, spring onion</span>
-								</span>
-
-                                            </div>
-
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>FIRED-UP! CHICKEN</span></h3>
-                                                <span class="description">
-									<span>Chicken, Fired-Up!, sweet bell pepper, jalapeño, tomato, spring onion</span>
-								</span>
-
-                                            </div>
-
-                                        </a>
-
-                                    </li>
-
-
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>BBQ CHICKEN</span></h3>
-                                                <span class="description">
-									<span>Chicken, mushroom, onion, BBQ sauce, spring onion</span>
-								</span>
-
-                                            </div>
-
-                                        </a>
-
-                                    </li>
-
-
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link has-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>SWEET &amp; SOUR CHICKEN</span></h3>
-                                                <span class="description">
-									<span>Chicken, green pepper, pineapple, Sweet &amp; Sour sauce</span>
-								</span>
-
-                                            </div>
-
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link no-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>HALF &amp; HALF LARGE PIZZA</span></h3>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link no-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>HALF &amp; HALF STD PIZZA</span></h3>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#selectamenu" class="menu-item-link no-description">
-                                            <div class="text">
-                                                <h3 class="name"><span>HALF &amp; HALF RD PIZZA</span></h3>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
 
@@ -1311,8 +1204,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
     <script src="public/js/jquery.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
 
