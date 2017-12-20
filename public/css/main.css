@@ -4,7 +4,30 @@
 }
 .food-image
 {
+	width:50%;
+	float:left;
+	
+	position: relative;
+	padding:-7px;
+	height: 100%;
+	margin:-10px;
+	
 
+}
+.food-content
+{
+	width: 50%;
+	float:right;
+	height: 100%;
 
 
 }
+
+ol, ul
+ {
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+	
+
