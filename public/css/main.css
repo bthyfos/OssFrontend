@@ -1,6 +1,11 @@
-.first-food-type
+#mainNav
 {
+    background-color: white;
+}
 
+#right-content
+{
+margin-top: 70px;
 }
 .food-image
 {
@@ -14,9 +19,14 @@
 {
 	width: 50%;
 	float:right;
-	min-height:224px;
+	height:40vh;
 	overflow-y: scroll;
 	cursor: pointer;
+}
+.carousel-inner {
+     position: relative; 
+     width: 100%;
+     max-height: 100%;
 }
 
 ol, ul
